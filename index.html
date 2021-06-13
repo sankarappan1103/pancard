@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Update Form</title>
+    <style>
+       span{
+           color: red;
+       }
+        table,th,td
+        {
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        *{
+            margin: 3px 1px 3px 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgb(255, 248, 240, 0.863);">
+        <div style="background-color: brown;color: white;">
+            <h5 style="text-align: center; ">
+                Requested for the new pancard or changes or correction
+            </h5>
+            <p style="font-style:italic; text-align: center;"> Fields marked with <span
+                    style="color: red;">*</span>(asterik) are mandatory </p>
+        </div>
+        <div style="font-weight: bold;">
+            <table style="width:100%">
+               <tr>
+                <td></td>
+                <!--this is first row------->
+                   <td colspan="2"> 
+                       <p style="display:inline"> <span>*</span> Weather he is citizen of india</p>
+                       <div style="display:inline;">
+                        <label for='yes'style="padding-left: 50px;">Yes</label>
+                        <input type="radio" name="" id="yes">
+                        <label for='no'style="padding-left: 30px;">No</label>
+                        <input type="radio" name="" id="no">
+                       </div>
+                   </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <!--this is second row------->
+                       <td colspan="2"> 
+                           <label for='Pan'></label> <span>*</span> Permanant account Number</label>
+                            <input type="text" name="pan" id="yes">
+                       </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox" name="" id="" style="margin: 3px 2px 3px 2px;">
+                        <!--this is third row------->
+                           <td colspan="2"> 
+                               <label for='Name'></label> <span>*</span> 1.Name</label>
+                                
+                           </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <!--this is fourth row------->
+                           <td colspan="2"> 
+                            <p style="display:inline"> <span>*</span> Title</p>
+                            <div style="display:inline;">
+                             <label for='yes'style="padding-left: 50px;">shr/mr</label>
+                             <input type="radio" name="" id="shr/mr">
+                             <label for='no'style="padding-left: 30px;">smt/mrs</label>
+                             <input type="radio" name="" id="smt/mrs">
+                             <label for='no'style="padding-left: 30px;">Kumari/ms</label>
+                             <input type="radio" name="" id="kumari/ms">
+                            </div>
+                                
+                           </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <!--this is fifth row------->
+                           <td colspan="2"> 
+                            <label for='lastname' style="display:inline;"> Lastname/Surname</label>
+                            <label for='Firstname' style="display:inline;padding-left: 100px;"> FirstName</label>
+                            <label for='secondname' style="display:inline;padding-left: 155px;"> SecondName</label>
+                            <div>
+                             <label for='lastname'></label>
+                             <input type="text" name="" id="lastname">
+                             <label for='Firstname'style="padding-left: 50px;"></label>
+                             <input type="text" name="" id="Firstname">
+                             <label for='secondname'style="padding-left: 50px;"></label>
+                             <input type="text" name="" id="secondname">
+                            </div>
+                                
+                           </td>
+                    </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>
